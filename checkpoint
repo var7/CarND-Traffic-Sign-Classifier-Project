@@ -1,2 +1,2 @@
-model_checkpoint_path: "modelwithaugdata"
-all_model_checkpoint_paths: "modelwithaugdata"
+model_checkpoint_path: "modelwith800augdata"
+all_model_checkpoint_paths: "modelwith800augdata"
