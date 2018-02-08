@@ -62,13 +62,13 @@ As seen above, in the dataset the number of examples in each class is not equall
 
 If there were any classes that had less than 800 samples, I augmented the data in that class till there were 800 samples. This was done by first moving the image, then rotating it, and then scaling it. I moved the images by a maximum of 4px. For rotation the range was 15 degrees. For scaling I allowed the image to be scaled by upto 6px (about 18% zooming in or out).
 
-Rotated by: -4.38 deg
+<p align="center">Rotated by: -4.38 deg</p>
 ![rotation][rot]
 
-Moved to x:0.46 y:-2.46 from (0,0)
+<p align="center">Moved to x:0.46 y:-2.46 from (0,0)</p>
 ![move][move]
 
-Scaled by : 3.64 px
+<p align="center">Scaled by : 3.64 px</p>
 ![scale][scale]
 
 After the augmentation the distribution of the training set was more equally distributed. This is shown in the below bar graph
