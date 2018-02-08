@@ -31,11 +31,11 @@ The goals / steps of this project are the following:
 ---
 ### README
 
-####1. Link to the [project code](https://github.com/var7/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
+#### Link to the [project code](https://github.com/var7/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ### Data Set Summary & Exploration
 
-####1. Load, Explore, summarize the data set
+#### Load, Explore, summarize the dataset
 
 I used the numpy library to calculate summary statistics of the traffic
 signs data set:
@@ -46,7 +46,7 @@ signs data set:
 * The shape of a traffic sign image is (32, 32, 3)
 * The number of unique classes/labels in the data set is 43
 
-####2. Include an exploratory visualization of the dataset.
+#### Visualization of the dataset
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data is distributed.
 
@@ -55,7 +55,7 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 As we can see the data is not distributed equally in all the classes. This can cause problems during prediction because the classifier would have seen fewer samples of a particular class. 
 
 
-###Design and Test a Model Architecture
+### Design and Test a Model Architecture
 
 #### Dataset Augmentation
 As seen above, in the dataset the number of examples in each class is not equally distributed. To fix this and add to the number of training examples I decided to augment the dataset. It also helped improve the performance of my network - taking it from somewhere around 89% to 95%.
