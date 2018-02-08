@@ -64,8 +64,10 @@ If there were any classes that had less than 800 samples, I augmented the data i
 
 Rotated by: -4.38 deg
 ![rotation][rot]
+
 Moved to x:0.46 y:-2.46 from (0,0)
 ![move][move]
+
 Scaled by : 3.64 px
 ![scale][scale]
 
