@@ -61,16 +61,18 @@ As we can see the data is not distributed equally in all the classes. This can c
 As seen above, in the dataset the number of examples in each class is not equally distributed. To fix this and add to the number of training examples I decided to augment the dataset. It also helped improve the performance of my network - taking it from somewhere around 89% to 95%.
 
 If there were any classes that had less than 800 samples, I augmented the data in that class till there were 800 samples. This was done by first moving the image, then rotating it, and then scaling it. I moved the images by a maximum of 4px. For rotation the range was 15 degrees. For scaling I allowed the image to be scaled by upto 6px (about 18% zooming in or out).
+<p align="center">
+Rotated by: -4.38 deg
 
-<p align="center">Rotated by: -4.38 deg</p>
-![rotation][rot]
+<img src="./visualization/rot.png">
 
-<p align="center">Moved to x:0.46 y:-2.46 from (0,0)</p>
-![move][move]
+Moved to x:0.46 y:-2.46 from (0,0)
 
-<p align="center">Scaled by : 3.64 px</p>
-![scale][scale]
+<img src="./visualization/move.png">
 
+Scaled by : 3.64 px
+<img src="./visualization/scale.png">
+</p>
 After the augmentation the distribution of the training set was more equally distributed. This is shown in the below bar graph
 
 ![after augmentation][distafter]
