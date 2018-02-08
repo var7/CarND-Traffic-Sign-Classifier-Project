@@ -1,9 +1,9 @@
-**Traffic Sign Recognition** 
+## Traffic Sign Recognition
 
 
 ---
 
-**Build a Traffic Sign Recognition Project**
+## Build a Traffic Sign Recognition Project
 
 The goals / steps of this project are the following:
 * Load the data set
@@ -125,7 +125,7 @@ My final model results were:
 * test set accuracy of 93.4%
  
 
-###Test a Model on New Images
+### Test a Model on New Images
 
 #### Images chosen
 Here are the five German traffic signs that I found on the web:
